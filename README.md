@@ -1,6 +1,6 @@
-# Contemporary Chinese Art Archive
+# Reimagining Archive in Contemporary Chinese Art 
 
-Contemporary Chinese Art Archive is a comprehensive digital collection showcasing the engagement of contemporary Chinese artists with archival materials, spanning from 1978 to the present. Curated by Luming Zhang as part of the LIS program at CollectionBuilder, this project features artworks from China, Hong Kong, and Taiwan, offering a unique insight into the artistic evolution and cultural narratives of the region.
+Reimagining Archive in Contemporary Chinese Art  is a comprehensive digital collection showcasing the engagement of contemporary Chinese artists with archival materials, spanning from 1978 to the present. Curated by Luming Zhang as part of the LIS program at CollectionBuilder, this project features artworks from China, Hong Kong, and Taiwan, offering a unique insight into the artistic evolution and cultural narratives of the region.
 
 ## Brief Overview of Building the Collection
 
