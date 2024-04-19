@@ -1,33 +1,43 @@
+Based on the introduction provided and the existing code for the "About" page, here is the updated code for your "About" page. This code will replace the general information about CollectionBuilder CSV with specific information about your project, "Reimagining Archive in Contemporary Chinese Art."
+
+Please make sure to edit the `objectid` values to match the specific items in your collection that you wish to feature. Also, ensure the image paths are correct if you're adding any images.
+
+```markdown
 ---
 title: About
 layout: about
 permalink: /about.html
 # include CollectionBuilder info at bottom
 credits: true
-# Edit the markdown on in this file to describe your collection
-# Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %} 
+{% include feature/jumbotron.html objectid="path_to_your_feature_image.jpg" %}
 
-{% include feature/nav-menu.html sections="About CollectionBuilder CSV;About the About Page" %}
+{% include feature/nav-menu.html sections="About the Project;Curator's Statement;Technical Credits" %}
 
-## About CollectionBuilder CSV
+## About the Project
 
-This demo collection features items from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital/), and is build using [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv).
+"Reimagining Archive in Contemporary Chinese Art" is a comprehensive digital collection showcasing the engagement of contemporary Chinese artists with archival materials, spanning from 1978 to the present. This project features artworks from China, Hong Kong, and Taiwan, offering unique insights into the artistic evolution and cultural narratives of the region.
 
-CollectionBuilder-CSV is a "Stand Alone" template for creating digital collection and exhibit websites using Jekyll, given:
+Curated by Luming Zhang as part of the LIS program at the University of Washington, this digital endeavor serves as a bridge connecting historical perspectives with contemporary interpretations.
 
-- a CSV of collection metadata
-- a folder of images, PDFs, audio, or video files
+{% include feature/image.html objectid="unique_identifier_for_an_artwork_image" width="75" %}
 
-Driven by your collection metadata, the template generates engaging visualizations to browse and explore your objects.
-The resulting static site can be hosted on any basic web server.
+## Curator's Statement
 
-[CollectionBuilder](https://github.com/CollectionBuilder/) is an set of open source tools for creating digital collection and exhibit websites that are driven by metadata and powered by modern static web technology.
-See [CB Docs](https://collectionbuilder.github.io/cb-docs/) for detailed information.
+As the curator, Luming Zhang, I have carefully selected the pieces that resonate with the rich cultural heritage and the evolving identity of Chinese art. Through this collection, we invite viewers to delve into the complexities and narratives that these archival materials bring to light.
 
-{% include feature/image.html objectid="demo_001" width="75" %} 
+## Technical Credits - CollectionBuilder
 
-<!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
-{% include cb/about_the_about.md %} 
+This digital collection is built with CollectionBuilder, an open-source tool for creating digital collection and exhibit websites. Utilizing the CollectionBuilder-CSV template, this project is powered by the static website generator Jekyll, allowing for a visually engaging and metadata-driven interface to explore our collection.
+
+[More about the technical framework](https://collectionbuilder.github.io/about.html#tool)
+
+## Acknowledgements
+
+We extend our gratitude to the University of Idaho and the contributors to the CollectionBuilder project for their support in bringing this collection to life.
+
+{% include feature/alert.html text="Special thanks to all artists and institutions that have made their works and archives available for this project." color="success" align="center" %}
+
+[Home](https://collectionbuilder-lis.github.io/reimagining-archive/)
+
