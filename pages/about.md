@@ -18,8 +18,6 @@ credits: true
 
 Curated by Luming Zhang as part of the LIS program at the University of Washington, this digital endeavor serves as a bridge connecting historical perspectives with contemporary interpretations.
 
-{% include feature/image.html objectid="unique_identifier_for_an_artwork_image" width="75" %}
-
 ## Curator's Statement
 
 As the curator, Luming Zhang, I have carefully selected the pieces that resonate with the rich cultural heritage and the evolving identity of Chinese art. Through this collection, we invite viewers to delve into the complexities and narratives that these archival materials bring to light.
