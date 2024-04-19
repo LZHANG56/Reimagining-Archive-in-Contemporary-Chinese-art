@@ -11,7 +11,7 @@ permalink: /about.html
 credits: true
 ---
 
-{% include feature/jumbotron.html objectid="path_to_your_feature_image.jpg" %}
+{% include feature/jumbotron.html objectid="/objects/artwork_000_sm.jpg" %}
 
 {% include feature/nav-menu.html sections="About the Project;Curator's Statement;Technical Credits" %}
 
