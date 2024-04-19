@@ -1,9 +1,3 @@
-Based on the introduction provided and the existing code for the "About" page, here is the updated code for your "About" page. This code will replace the general information about CollectionBuilder CSV with specific information about your project, "Reimagining Archive in Contemporary Chinese Art."
-
-Please make sure to edit the `objectid` values to match the specific items in your collection that you wish to feature. Also, ensure the image paths are correct if you're adding any images.
-
-```markdown
----
 title: About
 layout: about
 permalink: /about.html
