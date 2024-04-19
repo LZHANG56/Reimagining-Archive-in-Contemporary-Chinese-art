@@ -1,7 +1,3 @@
-title: About
-layout: about
-permalink: /about.html
----
 
 {% include feature/jumbotron.html objectid="/objects/artwork_000_sm.jpg" %}
 
